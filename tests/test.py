@@ -96,7 +96,7 @@ class TestSDK(unittest.TestCase):
         self.assertEqual(enroll_user, USER)
 
         enroll_user = duo_web.verify_enroll_response(IKEY, SKEY, AKEY, FUTURE_ENROLL_RESPONSE + ':' + invalid_enroll_sig)
-        self.assertEqual(enroll_user, None)
+        self.assertEqual(enroll_user, 1) #NONE
 
 
 if __name__ == '__main__':
