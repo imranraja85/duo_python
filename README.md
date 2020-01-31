@@ -1,6 +1,6 @@
 # Overview
 
-[![Build Status](https://travis-ci.org/duosecurity/duo_python.svg?branch=master)](https://travis-ci.org/duosecurity/duo_python)
+![Linting and Tests](https://github.com/imranraja85/duo_python/workflows/Python%20package/badge.svg?branch=master&event=status)
 
 **duo_python** - Duo two-factor authentication for Python web applications: https://duo.com/docs/duoweb
 
